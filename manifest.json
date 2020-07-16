@@ -371,6 +371,18 @@
             }
           ]
         },
+	{
+          "platforms": [
+            {
+              "dockerfile": "src/ubuntu/16.04/cross/ppc64el",
+              "os": "linux",
+              "osVersion": "xenial",
+              "tags": {
+                "ubuntu-16.04-cross-ppc64el-$(System:TimeStamp)-$(System:DockerfileGitCommitSha)": {}
+              }
+            }
+          ]
+        },
         {
           "platforms": [
             {
